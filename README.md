@@ -21,3 +21,4 @@ https://sadservers.com/
 |Medium|["Cape Town": Borked Nginx](./problems/medium/cape-town.md)|
 |Medium|["Salta": Docker container won't start.](./problems/medium/salta.md)|
 |Medium|["Venice": Am I in a container?](./problems/medium/venice.md)|
+|Medium|["Oaxaca": Close an Open File](./problems/medium/oaxaca.md)|
