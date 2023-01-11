@@ -8,9 +8,7 @@
 まずcurlすると8888ポートではすでにnginxが起動しているのでnginxを止める。
 
 ```sh
-$ curl -v //localhost:8888
-
-admin@ip-172-31-35-11:/$ curl -v localhost:8888
+$ curl -v localhost:8888
 *   Trying 127.0.0.1:8888...
 * Connected to localhost (127.0.0.1) port 8888 (#0)
 > GET / HTTP/1.1
@@ -31,8 +29,11 @@ admin@ip-172-31-35-11:/$ curl -v localhost:8888
 < 
 these are not the droids you're looking for
 * Connection #0 to host localhost left intact
+```
 
-# nginxをstop
+nginxをstopする。
+
+```sh
 $ sudo systemctl stop nginx
 $ sudo systemctl status nginx
 ```
@@ -49,7 +50,9 @@ EXPOSE 8888
 CMD [ "node", "server.js" ]
 ```
 
-Dockerイメージのビルドとコンテナの起動を行う。
+Dockerイメージのビルドとコンテナの起動を行う。  
+起動が確認できたら8888ポートへのcurlを試す。
+
 ```sh
 $ sudo docker build . -t salta
 $ sudo docker run -d --rm -p 8888:8888 salta
