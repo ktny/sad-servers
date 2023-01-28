@@ -23,3 +23,4 @@ https://sadservers.com/
 |Medium|["Venice": Am I in a container?](./medium/venice.md)|
 |Medium|["Oaxaca": Close an Open File](./medium/oaxaca.md)|
 |Medium|["Melbourne": WSGI with Gunicorn](./medium/melbourne.md)|
+|Medium|["Lisbon": etcd SSL cert troubles](./medium/lisbon.md)|
