@@ -24,3 +24,4 @@ https://sadservers.com/
 |Medium|["Oaxaca": Close an Open File](./medium/oaxaca.md)|
 |Medium|["Melbourne": WSGI with Gunicorn](./medium/melbourne.md)|
 |Medium|["Lisbon": etcd SSL cert troubles](./medium/lisbon.md)|
+|Hard|["Jakarta": it's always DNS.](./hard/jakarta.md)|
